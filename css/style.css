@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    max-width: 100%;
+}
+
+.nav{
+    height: 50px;
+    margin: 0 auto;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    top: 0;
+    position: sticky;
+    z-index: 20;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link{
+    list-style: none;
+    width: 80px;
+    margin-top: 10px;
+    gap: 100px;
+}
+
+.nav-link a{
+    font-size: 20px;
+    /* margin-top: 20px; */
+    text-decoration: none;
+    color: black;
+}
+
+.logo h1{
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+/* SECTION TWO  */
+
+.section-two{
+    min-height: calc(100vh - 50px);
+    padding-top: 20px;
+}
+
+.courses{
+    min-height: calc(100vh - 50px);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.course{
+    width: 47%;
+    height: 140px;
+    margin-top: 1px;
+    margin-bottom: 280px;
+}
+
+.course-card{
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.price{
+    position: absolute;
+    color: black;
+    left: 5%;
+    top: 5%;
+    padding: 2px;
+    background-color: white;
+}
+
+.course-title{
+    font-size: 20px;
+    text-align: center;
+}
+
+.description{
+    font-size: 18px;
+    text-align: center;
+}
+
+.course-links{
+    text-align: center;
+    gap: 50px;
+}
+
+.view-course, .buy-course{
+    font-size: 15px;
+    color: black;
+}
+
+/* .course-card{
+    width: inherit;
+} */
+
+.thumbnail{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.course:nth-child(odd){
+    margin-right: 2%;
+    margin-right: 2%;
+}
+
+.course:nth-child(odd){
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/* COURSE  */
+
+.section-one{
+    margin-top: 20px;
+}
+
+.course__title{
+    text-align: center;
+}
+
+.videos-count{
+    text-align: center;
+}
+
+.lesson{
+    width: 96%;
+    margin: 0 auto;
+}
+
+.lesson-card{
+    margin-top: 10px;
+}
+
+@media screen and (max-width:912px){
+    .course{
+        height: 0px;
+    }
+}
