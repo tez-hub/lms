@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LMS</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="{% static './css/style.css' %}">
 </head>
 <body>
     <nav class="nav">
@@ -34,7 +36,7 @@
         <div class="courses">
             <div class="course">
                 <div class="course-card">
-                    <img src="./img1.png" alt="" class="thumbnail">
+                    <img src="{% static './img1.png' %}" alt="" class="thumbnail">
                     <span class="price">Ksh. 220</span>
                     <h4 class="course-title">Title</h4>
                     <p class="description">Course description</p>
@@ -46,7 +48,7 @@
             </div>
             <div class="course">
                 <div class="course-card">
-                    <img src="./img1.png" alt="" class="thumbnail">
+                    <img src="{% static './img1.png' %}" alt="" class="thumbnail">
                     <span class="price">Ksh. 220</span>
                     <h4 class="course-title">Title</h4>
                     <p class="description">Course description</p>
@@ -58,7 +60,7 @@
             </div>
             <div class="course">
                 <div class="course-card">
-                    <img src="./img1.png" alt="" class="thumbnail">
+                    <img src="{% static './img1.png' %}" alt="" class="thumbnail">
                     <span class="price">Ksh. 220</span>
                     <h4 class="course-title">Title</h4>
                     <p class="description">Course description</p>
@@ -71,7 +73,7 @@
             </div>
             <div class="course">
                 <div class="course-card">
-                    <img src="./img1.png" alt="" class="thumbnail">
+                    <img src="{% static './img1.png' %}" alt="" class="thumbnail">
                     <span class="price">Ksh. 220</span>
                     <h4 class="course-title">Title</h4>
                     <p class="description">Course description</p>
